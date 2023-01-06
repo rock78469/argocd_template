@@ -1,1 +1,2 @@
 template/nginx/.env
+deploy/deployment.yaml
