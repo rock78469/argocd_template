@@ -14,6 +14,7 @@ spec:
       containers:
       - name: mynginx
         image: junior78469/mynginx:test
+        imagePullPolicy: Always
         resources:
           limits:
             memory: "50Mi"
