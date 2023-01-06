@@ -13,7 +13,7 @@ spec:
     spec:
       containers:
       - name: mynginx
-        image: {YOUR_REPO}/mynginx:test
+        image: junior78469/mynginx:test
         resources:
           limits:
             memory: "50Mi"
