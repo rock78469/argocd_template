@@ -1,13 +1,12 @@
 # argocd_template
 
 ## Install
+### Install Argocd CLI
 ```
-# Install argocd cli
 brew install argocd
 ```
-
+### Install Argocd in kubernetes
 ```
-# Install argocd in kubernetes
 kubectl create namespace argocd
 kubectl apply -n argocd -f https://raw.githubusercontent.com/argoproj/argo-cd/stable/manifests/install.yaml
 ```
